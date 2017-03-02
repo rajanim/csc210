@@ -10,10 +10,20 @@ public class TypeCast {
         System.out.println(1 / 2);
         System.out.println((double)1 / 2);
 
+
+
         //System.out.println(1.7);
         //System.out.println((int)1.7);
 
 
     }
+
+    static int addNumbers(float a, float b) {
+
+        float sum = (a + b);
+
+        return (int) sum;
+    }
+
 }
 
