@@ -3,7 +3,7 @@ package chapter6.part2;
 
 
 /**
- * Created by rajanishivarajmaski1 on 3/1/17.
+ *
  *  1 : add numbers(a,b)
  *  2 : subtract  (a,b)
  *  3 : multiply (a,b)
@@ -15,7 +15,19 @@ package chapter6.part2;
  *
  *  input
  *  1
- *  3 4
+ *  3 4 = 7
+ *
+ *  2
+ *  3 4 = -1
+ *
+ *  3
+ *  3 4 = 12
+ *
+ *  4
+ *  3/4 = 0
+ *  8/2 = 4
+ *
+ *
  *
  *
  */

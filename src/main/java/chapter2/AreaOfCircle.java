@@ -19,9 +19,14 @@ public class AreaOfCircle {
             }
             else{
                 //calculate area and assign to "area" variable
-                double area = radius * radius * Math.PI;
+                double area = getArea(radius);
                 //print value in "area" variable
                 System.out.println(area);
             }
+    }
+
+    static double  getArea(int radius){
+        double area = radius * radius * Math.PI;
+        return area;
     }
 }

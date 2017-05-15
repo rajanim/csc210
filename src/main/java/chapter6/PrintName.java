@@ -8,7 +8,6 @@ public class PrintName {
 
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
-
        String ack =  printName(name);
         System.out.println(ack);
 
@@ -19,7 +18,6 @@ public class PrintName {
         System.out.println("Hello " + name);
 
         return "printed";
-
 
     }
 }

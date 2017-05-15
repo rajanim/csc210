@@ -7,23 +7,25 @@ public class VowelConsonant {
         Scanner input = new Scanner(System.in);
 
         // Prompt the user to enter a letter
-        System.out.print("Enter a letter: ");
-        String s = input.nextLine();
-        char ch = s.charAt(0);
+        System.out.print("Enter a string: ");
+        String name = input.nextLine(); // diana
 
-        if (Character.isLetter(ch))
-        {
-            switch(Character.toUpperCase(ch))
-            {
-                case 'A': System.out.println(ch + " is a vowel"); break;
-                case 'E':System.out.println(ch + " is a vowel"); break;
-                case 'I':System.out.println(ch + " is a vowel"); break;
-                case '0':System.out.println(ch + " is a vowel"); break;
-                case 'U': System.out.println(ch + " is a vowel"); break;
-                default : System.out.println(ch + " is a consonant");
-            }
+
+            int vowelCnt = 0;
+        int constCnt = 0;
+
+        name.toUpperCase();
+
+        for(int i=0; i<name.length(); i++){
+
+           if(name.charAt(i)=='A' || name.charAt(i)=='E' || name.charAt(i)=='I' || name.charAt(i)=='O' || name.charAt(i)=='U')
+               vowelCnt++;
+            else
+                constCnt++;
+
         }
-        else
-            System.out.println(ch + " is an invalid input");
+
+
+
     }
 }
